@@ -1,0 +1,53 @@
+body{
+    background: black;
+    /* background-image: url('imagenes/fondo\ 2.jpg');
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: overlay;
+    background-size: cover; */
+    display: block;
+    text-align: center;
+    margin: 10px;
+
+}
+  
+  #display {
+    font-size: 3em;
+    font-family: 'lorem', sans-serif;
+    color: white;
+    font-size: 400px;
+    margin: -10px;
+    transition: all .3s ease-in-out;
+    
+  }
+  #display:hover{
+    color: red;
+    transform: perspective(90deg)
+               translateX(8vw)
+          
+        ;
+
+  }
+  
+  .red {
+    color: red;
+  }
+  h2{
+    color: white;
+    font-size: 50px;
+    margin: 0;
+  }
+  h3{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: -10px;
+    font-size: 50px;
+  }
+  button{
+    
+    border-radius: 15px;
+    border: 0 solid black;
+  }
+  button:hover{
+    background: #516F89;
+    font-size: 19px;
+  }
